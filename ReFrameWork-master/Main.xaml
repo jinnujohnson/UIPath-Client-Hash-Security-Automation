@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>826.4,868.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>826.4,908.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -233,6 +233,7 @@
                           <InOutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[Config]</InOutArgument>
                           <InOutArgument x:TypeArguments="x:String" x:Key="in_TransactionID">[TransactionID]</InOutArgument>
                           <InOutArgument x:TypeArguments="ui:Browser" x:Key="System1URL">[System1Browser]</InOutArgument>
+                          <InOutArgument x:TypeArguments="ui:Browser" x:Key="ShaURL">[Sha1Browser]</InOutArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                     </Sequence>
